@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nova Santos — Mundo Aberto 3D</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="hud">
+  <canvas id="mm" width="170" height="170"></canvas>
+  <div id="bars"><div><i id="bh"></i></div><div><i id="ba"></i></div><div><i id="bs"></i></div></div>
+  <div id="stars"></div><div id="money"></div>
+  <div id="wp"></div><div id="spd"></div><div id="clk"></div>
+  <div id="msg"></div><div id="pr"></div><div id="ch"></div>
+</div>
+<div id="dead">WASTED</div>
+<div id="menu">
+  <div class="box">
+    <h1>Nova Santos</h1>
+    <p>Cidade aberta em 3D. Roube um carro, fuja da polícia, explore.</p>
+    <ul>
+      <li><b>WASD</b> andar · <b>Shift</b> correr · <b>Espaço</b> pular / freio de mão · <b>C</b> agachar</li>
+      <li><b>F</b> entrar/sair do veículo · <b>Botão esq.</b> atirar · <b>Botão dir.</b> mirar · <b>R</b> recarregar</li>
+      <li><b>Tab</b> roda de armas · <b>Rodinha (clique)</b> celular · <b>V</b> trocar roupa · <b>P</b> primeira pessoa · <b>Roda</b> zoom · <b>M</b> som</li>
+      <li><b>E</b> comprar / pegar dinheiro / abastecer · <b>J</b> aceitar contrato de assalto</li>
+      <li>Assalto: entre numa loja, mire (<b>botão dir.</b>) no atendente por 5 s e pegue o caixa</li>
+      <li><b>Esc</b> pausa e configurações</li>
+    </ul>
+    <label>Gráficos
+      <select id="q">
+        <option value="0">Muito baixo</option><option value="1">Baixo</option>
+        <option value="2">Médio</option><option value="3">Alto</option><option value="4">Ultra</option>
+      </select>
+    </label>
+    <button id="go">Jogar</button>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+<script src="ui.js"></script>
+<script src="extras.js"></script>
+<script src="systems.js"></script>
+<script src="game.js"></script>
+<script src="favela.js"></script>
+<script src="props.js"></script>
+<script src="oficina.js"></script>
+<script src="story.js"></script>
+<script src="intro.js"></script>
+<script src="fps.js"></script>
+<script src="zonas.js"></script>
+<script src="armas.js"></script>
+<script src="lojaarmas.js"></script>
+<script src="transito.js"></script>
+<script src="transito2.js"></script>
+<script src="phone.js"></script>
+<script src="fisica.js"></script>
+<script src="lojas.js"></script>
+</body>
+</html>
